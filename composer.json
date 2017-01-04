@@ -1,0 +1,22 @@
+{
+    "name": "jakejohns/atlas-poc",
+    "description": "messing with atlas",
+    "type": "library",
+    "require": {
+        "atlas/orm": "@dev",
+        "atlas/cli": "@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
